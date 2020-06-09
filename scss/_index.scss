@@ -1,0 +1,129 @@
+.index-header{
+  background: url(../images/68.png) no-repeat center center;
+  background-size: cover;
+  .header-wrap{
+    height: 840px;
+    text-align: right;
+  }
+  .header-title{
+    color: $secondary;
+  }
+}
+
+.intro{
+  background-color: $third;
+  li{
+    height: 289px;
+    .intro-item{
+      height: 156px; 
+      } 
+  }
+  h5{
+    color: $secondary;
+  }
+  p{
+    width: 208px;
+  }
+}
+.classic{
+  .classic-item{
+    h2{
+      color: $primary;
+      font-style: italic;
+    }
+  }
+  .classic-img{
+    width: 65%;
+  }
+  .classic-content{
+    width: 30%;
+  }
+  .sun-img{
+    filter: grayscale(100%);
+  }
+  .sun-img:hover{
+    filter: saturate(100%);
+  }
+}
+.joint{
+  background: url(../images/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.png) no-repeat;
+  background-size: cover;
+  h2{
+    color: $light;
+  }
+  .joint-top{
+    max-width: 1359px;
+    .joint-item{
+      background: url(../images/zac-wolff-2qfYizn95pk-unsplash.png) no-repeat;
+      background-size: cover;
+      width: 46%;
+    }
+    .joint-boy{
+      background: url(../images/24.png) no-repeat;
+      background-size: cover;
+      width: 20%;
+    }
+    .more{
+      position: relative;
+    }
+    .more-text{
+      color: $primary;
+      position: absolute;
+      right: 0;
+      background: $light;
+    }
+    a.more-text:hover{
+      text-shadow: 0 -70px 0 #aa0701dc, 0 -140px 0 #aa070177; //往上 Y軸 負值
+      transition: all 1s .3s;
+    }
+  }
+  .joint-bottom{
+    padding-bottom: $spacer * 30; //480px
+    h2{  //48px
+      height: 100%;
+      color: $primary;
+      background: rgba($light, 0.5);
+    }
+    .joint-double{
+      width: 585px;
+      height: 592px;
+      background: url(../images/14.png) no-repeat center center;
+      background-size: cover; 
+      margin-right: $spacer * 1.875; //30px
+    }
+    .joint-youth{
+      width: 585px;
+      height: 592px;
+      background: url(../images/39.png) no-repeat center center;
+      background-size: cover; 
+    }
+  }
+}
+.recommend{
+  margin-top: -335px;
+  h2{
+    color: $light;
+  }
+  .card{
+    width: 23.5%;
+  }
+  .card-item{
+    border: 1px solid $border;
+    p{
+      line-height: 21px;
+    }
+    .card-itemsm{
+      color: $text-med;
+    }
+  }
+}
+.contact{
+  background: $third;
+  .contact-content{
+    max-width: 792px;
+    p{
+      margin-bottom: 20px;
+    }
+  }
+}
+

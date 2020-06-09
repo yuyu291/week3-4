@@ -1,0 +1,47 @@
+// 導行欄
+.navbar{
+  background-color: $primary;
+  padding: $spacer * 1.875 $spacer * 5.5;
+  .text-sm{
+    color: $four;
+  }
+}
+
+//footer
+.footer{
+  background: $primary;
+  .footer-content{
+    max-width: 1150px;
+  }
+  a, .footer-copyright{
+    font-size: $spacer; //16px
+    color: $four;
+  } 
+  .footer-main{
+    border-bottom: 1px solid $four;
+    p{
+      font-size: $spacer * 2.25; //36px
+      line-height: 54px;
+      color: $four;
+    }
+    .footer-phone{
+      margin-left: 23px;
+    }
+    .footer-mail{
+      margin-left: 12px;
+    }
+  }
+  .footer-bottom{
+    p{
+      font-size: 14px; //14px
+      line-height: 21px;
+      color: $four;
+    }
+    .footer-copyright{
+      margin-left: 38px;
+    }
+    .footer-terms{
+      margin-left: 62px;
+    }
+  }
+}

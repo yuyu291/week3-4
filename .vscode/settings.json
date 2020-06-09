@@ -1,0 +1,10 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+        "format": "expanded", //expanded 预设
+        "extensionName": ".css",
+        "savePath": "/css/"
+    }
+],
+"git.ignoreLimitWarning": true
+}

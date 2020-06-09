@@ -1,0 +1,39 @@
+.faq-header{
+  background: url(../images/faq/72.png) no-repeat center center;
+  background-size: cover;
+  .header-wrap{
+    height: 304px;
+  }
+  h1{
+    line-height: 80px;
+  }
+  .header-icon{
+    margin-left: $spacer * 0.625;
+  }
+}
+.faq-main{
+  h4{
+    line-height: 63px;
+  }
+  h6{
+    line-height: 23px;
+  }
+  .faqcard-item-header, .faqcard-item-body{
+    border: 1px solid;
+  }
+  .faqcard-item-body{
+    background: $four;
+  }
+  a{
+    color: $text-dark;
+  }
+  .faqcard-item-header, .faqcard-item-body{
+    padding: $spacer * 1.375 $spacer * 2.375;
+  }
+  .faqcard-item:not(.active) .up{
+    display: none;
+  }
+  .faqcard-item.active .down{
+    display: none;
+  }
+}
